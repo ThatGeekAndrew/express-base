@@ -9,9 +9,10 @@ A lot of the templates that I've found are too old (using deprecated technologie
 ## Features
 
 * Express 4
-* Bootstrap 4
-* jQuery slim
-* Angular 1.x
+* Bootstrap 4 Beta.2
+* Font Awesome 4.7
+* jQuery 3.2
+* Angular 1
 
 In the future I expect to be adding:
 
@@ -31,7 +32,7 @@ yarn && yarn start
 
 ## Tests
 
-No tests yet. Maybe someday in the future we won't be so careless!
+No tests yet. Maybe someday in the future I won't be so careless!
 
 ## License
 
