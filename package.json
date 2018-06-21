@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "angular": "^1.6.7",
@@ -22,7 +24,9 @@
     "node-sass-middleware": "^0.11.0",
     "popper.js": "^1.12.9",
     "response-time": "^2.3.2",
-    "serve-favicon": "~2.4.5"
+    "serve-favicon": "~2.4.5",
+    "snyk": "^1.83.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
