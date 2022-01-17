@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -20,3 +20,21 @@ patch:
         patched: '2018-06-21T22:50:08.496Z'
     - node-sass-middleware > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2018-06-21T22:50:08.496Z'
+  'npm:extend:20180424':
+    - node-sass-middleware > node-sass > request > extend:
+        patched: '2022-01-17T14:56:07.948Z'
+    - node-sass-middleware > node-sass > node-gyp > request > extend:
+        patched: '2022-01-17T14:56:07.948Z'
+  SNYK-JS-LODASH-567746:
+    - node-sass-middleware > node-sass > sass-graph > lodash:
+        patched: '2022-01-17T14:56:07.948Z'
+    - node-sass-middleware > node-sass > gaze > globule > lodash:
+        patched: '2022-01-17T14:56:07.948Z'
+  'npm:stringstream:20180511':
+    - node-sass-middleware > node-sass > request > stringstream:
+        patched: '2022-01-17T14:56:07.948Z'
+    - node-sass-middleware > node-sass > node-gyp > request > stringstream:
+        patched: '2022-01-17T14:56:07.948Z'
+  'npm:tunnel-agent:20170305':
+    - node-sass-middleware > node-sass > request > tunnel-agent:
+        patched: '2022-01-17T14:56:07.948Z'

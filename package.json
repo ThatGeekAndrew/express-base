@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "angular": "^1.6.7",
+    "angular": "^1.8.0",
     "angular-animate": "^1.6.7",
     "angular-route": "^1.6.7",
     "body-parser": "~1.18.2",
@@ -18,14 +18,14 @@
     "express": "~4.15.5",
     "font-awesome": "^4.7.0",
     "global": "^4.3.2",
-    "hbs": "~4.0.1",
-    "jquery": "^3.2.1",
-    "morgan": "~1.9.0",
+    "hbs": "~4.1.2",
+    "jquery": "^3.5.0",
+    "morgan": "~1.9.1",
     "node-sass-middleware": "^0.11.0",
     "popper.js": "^1.12.9",
     "response-time": "^2.3.2",
     "serve-favicon": "~2.4.5",
-    "snyk": "^1.83.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {},
   "snyk": true
